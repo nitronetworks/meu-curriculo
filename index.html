@@ -144,45 +144,80 @@
         </div>
       </section>
 
-      <!-- Formação -->
+      <!-- Formação Acadêmica -->
       <section id="formacao">
         <div class="container">
-          <h2>Formação & Certificações</h2>
-          <div class="education-item">
-            <h3>Certificações & Cursos na Área de TI</h3>
-            <p>Conhecimentos em Cloud, Segurança Cibernética e DevOps.</p>
+          <h2>Formação Acadêmica</h2>
+          <div class="education-item" style="margin-top: 20px">
+            <h3>Graduação / Técnico em Tecnologia</h3>
+            <p>
+              <strong>Curso:</strong> Análise de Sistemas / Ciência da
+              Computação / TI
+            </p>
           </div>
         </div>
       </section>
+
+      <!-- Cursos e Certificações (Cards) -->
+      <section id="cursos">
+        <div class="container">
+          <h2>Cursos e Certificações</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>CyberSecurity & Pentest</h3>
+              <p><strong>Instituição:</strong> FIAP / Solyd</p>
+            </div>
+            <div class="skill-card">
+              <h3>Linux Administrator & Engineer</h3>
+              <p><strong>Instituição:</strong> Linux Force Security / Alura</p>
+            </div>
+            <div class="skill-card">
+              <h3>Git, GitHub & DevOps</h3>
+              <p><strong>Instituição:</strong> Curso em Vídeo / LinuxTips</p>
+            </div>
+            <div class="skill-card">
+              <h3>Google Cloud Compute Engine</h3>
+              <p><strong>Instituição:</strong> Alura / GCP</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conhecimento de Informática & Tecnologia -->
+      <section id="informatica">
+        <div class="container">
+          <h2>Conhecimento de Informática | Tecnologia</h2>
+          <ul style="margin-top: 20px">
+            <li>
+              <strong>Sistemas Operacionais:</strong> Windows Server, Linux
+              (Ubuntu/Debian), macOS
+            </li>
+            <li>
+              <strong>Ferramentas & Software:</strong> VS Code, Git, GitHub,
+              Zabbix, Office 365, GLPI
+            </li>
+            <li>
+              <strong>Cloud & DevOps:</strong> Google Cloud Platform (GCP), AWS,
+              Docker, CI/CD Actions
+            </li>
+            <li>
+              <strong>Segurança:</strong> Pentest, Gestão de Vulnerabilidades,
+              Firewall, VPN, Active Directory
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Idiomas -->
+      <section id="idiomas">
+        <div class="container">
+          <h2>Idiomas</h2>
+          <ul style="margin-top: 20px">
+            <li><strong>Português:</strong> Nativo</li>
+            <li><strong>Inglês:</strong> Técnico</li>
+          </ul>
+        </div>
+      </section>
     </main>
-
-    <!-- Rodapé -->
-    <footer>
-      <div class="container">
-        <p>&copy; 2026 Rafael Martins. Todos os direitos reservados.</p>
-        <p>
-          Email: br.rafaa@gmail.com |
-          <a href="https://github.com/nitronetworks" target="_blank">GitHub</a>
-        </p>
-      </div>
-    </footer>
-
-    <!-- Script do Menu Hambúrguer para Dispositivos Móveis -->
-    <script>
-      const hamburger = document.getElementById("hamburger");
-      const navLinks = document.getElementById("nav-links");
-
-      hamburger.addEventListener("click", () => {
-        hamburger.classList.toggle("active");
-        navLinks.classList.toggle("active");
-      });
-
-      navLinks.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", () => {
-          hamburger.classList.remove("active");
-          navLinks.classList.remove("active");
-        });
-      });
-    </script>
   </body>
 </html>
