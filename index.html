@@ -3,28 +3,186 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Currículo</title>
+    <title>Rafael Martins | Portfólio de Tecnologia</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Rafael Martins</h1>
-    <p>Tecnologia da Informação / Cyber Security</p>
+    <!-- Cabeçalho com Navegação Ficha / Responsiva -->
+    <header>
+      <nav>
+        <div class="container">
+          <a href="#inicio" class="logo">Rafa Martins</a>
+          <button class="hamburger" id="hamburger" aria-label="Abrir Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#resumo">Resumo</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1s1f3qYTDdHg3EELeTUDbg3pTerjLO_hy/view?usp=drive_link"
+                target="_blank"
+                >Currículo.pdf</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <h2>Sobre Mim</h2>
-    <p>
-      Analista de Suporte Pleno com mais de 18 anos de experiência em suporte
-      técnico e infraestrutura. Possui conhecimentos em projetos de migração
-      para a nuvem, implantação de sistemas, automatização de processos,
-      segurança cibernética, testes de vulnerabilidades e em soluções como
-      Google Cloud, AWS, Python, DevOps e monitoramento de rede com a ferramenta
-      Zabbix.
-    </p>
+    <main>
+      <!-- Seção Principal (Hero Banner) -->
+      <section id="inicio" class="hero">
+        <div class="container">
+          <h1>Rafael Martins</h1>
+          <p>
+            Tecnologia da Informação | Cyber Security | Infraestrutura | Linux |
+            Cloud | DevOps
+          </p>
+        </div>
+      </section>
 
-    <h2>Experiência Profissional</h2>
-    <ul>
-      <li><strong>Empresa X</strong> - Cargo (2024 - Atual)</li>
-    </ul>
+      <!-- Resumo Profissional -->
+      <section id="resumo">
+        <div class="container">
+          <h2>Resumo Profissional</h2>
+          <p>
+            Analista de Suporte Pleno com mais de 18 anos de experiência em
+            suporte técnico e infraestrutura. Possui conhecimentos em projetos
+            de migração para a nuvem, implantação de sistemas, automatização de
+            processos, segurança cibernética, testes de vulnerabilidades e em
+            soluções como Google Cloud, AWS, Python, DevOps e monitoramento de
+            rede com a ferramenta Zabbix.
+          </p>
+        </div>
+      </section>
 
-    <h2>Contato</h2>
-    <p>Email: br.rafaa@gmail.com</p>
+      <!-- Habilidades Técnicas (Cards) -->
+      <section id="habilidades">
+        <div class="container">
+          <h2>Habilidades Técnicas</h2>
+          <div class="skills-grid">
+            <div class="skill-card">Linux (Ubuntu) - Server | Desktop</div>
+            <div class="skill-card">
+              Windows - Server | Desktop | Office 365
+            </div>
+            <div class="skill-card">
+              GCP - Docker | Cloud Functions | Cloud Run | Cloud Storage
+            </div>
+            <div class="skill-card">
+              AWS - EC2 | Bucket | IAM | Route 53 | Docker
+            </div>
+            <div class="skill-card">
+              Docker - Containerização | Docker RUN | Docker Compose
+            </div>
+            <div class="skill-card">
+              Git & GitHub - Controle de Versões | Repositórios | Branches |
+              CI/CD
+            </div>
+            <div class="skill-card">
+              CyberSecurity | Pentest | Gestão de Vulnerabilidades
+            </div>
+            <div class="skill-card">
+              Zabbix - Instalação | Configuração | Monitoramento
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiência Profissional -->
+      <section id="experiencia">
+        <div class="container">
+          <h2>Experiência Profissional</h2>
+          <div class="job">
+            <h3>Empresa X</h3>
+            <h4>Analista de Suporte / Infraestrutura | 2024 - Atual</h4>
+            <ul>
+              <li>
+                Gestão de credenciais de acesso, e-mails e licenciamento Office
+                365.
+              </li>
+              <li>
+                Atendimento e solução de incidentes de média e alta complexidade
+                (chamados).
+              </li>
+              <li>
+                Suporte a infraestrutura de redes, servidores Windows e Linux.
+              </li>
+              <li>
+                Implantação de rotinas de automação e conteinerização com
+                Docker.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Principais Projetos -->
+      <section id="projetos">
+        <div class="container">
+          <h2>Principais Projetos</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <h3>Portfólio / Currículo Web</h3>
+              <h4>Desenvolvido em HTML | CSS | Docker | GitHub Pages</h4>
+              <p>
+                Aplicação web para exibição de perfil profissional com deploy
+                automatizado e containerizado.
+              </p>
+              <a
+                href="https://github.com/nitronetworks/meu-curriculo"
+                target="_blank"
+                >Ver no GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formação -->
+      <section id="formacao">
+        <div class="container">
+          <h2>Formação & Certificações</h2>
+          <div class="education-item">
+            <h3>Certificações & Cursos na Área de TI</h3>
+            <p>Conhecimentos em Cloud, Segurança Cibernética e DevOps.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Rafael Martins. Todos os direitos reservados.</p>
+        <p>
+          Email: br.rafaa@gmail.com |
+          <a href="https://github.com/nitronetworks" target="_blank">GitHub</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Script do Menu Hambúrguer para Dispositivos Móveis -->
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+
+      navLinks.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
   </body>
 </html>
